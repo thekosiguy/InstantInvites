@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_send_invites.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_send_invites.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_events_list.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_events_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_about_us.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_update_event.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\update_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable_compass.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\drawable\\compass.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_event_details.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_event_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_events_list_layout.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\events_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\xml\\root_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_help.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_nearby_places_of_interest.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_nearby_places_of_interest.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_compass.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_compass.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_add_event.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\layout\\activity_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kosi5\\AndroidStudioProjects\\InstantInvites\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    }
+]

@@ -1,0 +1,298 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.instantinvites"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:14:5-67
+20-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:14:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\edcce7fe9a2547261e4dd3539ccc92eb\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\edcce7fe9a2547261e4dd3539ccc92eb\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:16:5-61:19
+31        android:allowBackup="true"
+31-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:17:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\32f4f944aca9213f676acf60269714d3\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:18:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:19:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:20:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:21:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:22:9-40
+40
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
+49        <meta-data
+49-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:32:9-34:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:33:13-58
+51            android:value="@string/google_maps_key" />
+51-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:34:13-52
+52
+53        <activity
+53-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:36:9-40:20
+54            android:name="com.example.instantinvites.NearbyPlacesOfInterest"
+54-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:37:13-51
+55            android:exported="true"
+55-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:39:13-36
+56            android:label="@string/title_activity_nearby_places_of_interest" >
+56-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:38:13-77
+57        </activity>
+58        <activity android:name="com.example.instantinvites.Compass" />
+58-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:41:9-45
+58-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:41:19-42
+59        <activity android:name="com.example.instantinvites.SendInvites" />
+59-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:42:9-49
+59-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:42:19-46
+60        <activity android:name="com.example.instantinvites.EventDetails" />
+60-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:43:9-50
+60-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:43:19-47
+61        <activity
+61-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:44:9-52:20
+62            android:name="com.example.instantinvites.Login"
+62-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:45:13-34
+63            android:label="@string/app_name" >
+63-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:46:13-45
+64            <intent-filter>
+64-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:47:13-51:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:48:17-69
+65-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:48:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:50:17-77
+67-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:50:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity android:name="com.example.instantinvites.AddEvent" />
+70-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:53:9-46
+70-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:53:19-43
+71        <activity android:name="com.example.instantinvites.SignUp" />
+71-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:54:9-44
+71-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:54:19-41
+72        <activity android:name="com.example.instantinvites.EventsList" />
+72-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:55:9-48
+72-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:55:19-45
+73        <activity android:name="com.example.instantinvites.Help" />
+73-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:56:9-42
+73-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:56:19-39
+74        <activity
+74-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:57:9-59:63
+75            android:name="com.example.instantinvites.Settings"
+75-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:58:13-37
+76            android:label="@string/title_activity_settings" />
+76-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:59:13-60
+77        <activity android:name="com.example.instantinvites.AboutUs" />
+77-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:60:9-45
+77-->C:\Users\kosi5\AndroidStudioProjects\InstantInvites\app\src\main\AndroidManifest.xml:60:19-42
+78
+79        <service
+79-->[com.google.firebase:firebase-database:19.2.1] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\fbc434f7a17240f4df3fb56b14f309c6\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-database:19.2.1] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\fbc434f7a17240f4df3fb56b14f309c6\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\8416470d2a85f9389ab7725c87f375a2\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-database:19.2.1] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\fbc434f7a17240f4df3fb56b14f309c6\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+83            <meta-data
+83-->[com.google.firebase:firebase-database:19.2.1] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\fbc434f7a17240f4df3fb56b14f309c6\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+84                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+84-->[com.google.firebase:firebase-database:19.2.1] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\fbc434f7a17240f4df3fb56b14f309c6\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-database:19.2.1] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\fbc434f7a17240f4df3fb56b14f309c6\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+89            <meta-data
+89-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\edcce7fe9a2547261e4dd3539ccc92eb\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:30:13-32:85
+90                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+90-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\edcce7fe9a2547261e4dd3539ccc92eb\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:31:17-139
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\edcce7fe9a2547261e4dd3539ccc92eb\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:32:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+93-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+95        </service> <!-- Needs to be explicitly declared on P+ -->
+96        <uses-library
+96-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+97            android:name="org.apache.http.legacy"
+97-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+98            android:required="false" />
+98-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+99
+100        <activity
+100-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+101            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+101-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+102            android:excludeFromRecents="true"
+102-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+103            android:exported="true"
+103-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+104            android:launchMode="singleTask"
+104-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+105            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+105-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\c21f330c678249a7a1bef81e00050db4\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+107
+108        <receiver
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+109            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+109-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+110            android:exported="true"
+110-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+111            android:permission="com.google.android.c2dm.permission.SEND" >
+111-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+112            <intent-filter>
+112-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+113                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+113-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+113-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\2fa1c4d77d47190ebc89cc7c67ea6d9b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+114            </intent-filter>
+115        </receiver>
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\8416470d2a85f9389ab7725c87f375a2\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\8416470d2a85f9389ab7725c87f375a2\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+119            android:authorities="com.example.instantinvites.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\8416470d2a85f9389ab7725c87f375a2\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\8416470d2a85f9389ab7725c87f375a2\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:19.3.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\8416470d2a85f9389ab7725c87f375a2\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\b6f641efc12aa4581caa0c35055eb3fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\b6f641efc12aa4581caa0c35055eb3fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\b6f641efc12aa4581caa0c35055eb3fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\b6f641efc12aa4581caa0c35055eb3fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+127
+128        <receiver
+128-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:29:9-33:20
+129            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+129-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:30:13-85
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:31:13-35
+131            android:exported="false" >
+131-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:32:13-37
+132        </receiver>
+133        <receiver
+133-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:34:9-42:20
+134            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+134-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:35:13-100
+135            android:enabled="true"
+135-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:36:13-35
+136            android:exported="true"
+136-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:37:13-36
+137            android:permission="android.permission.INSTALL_PACKAGES" >
+137-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:38:13-69
+138            <intent-filter>
+138-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:39:13-41:29
+139                <action android:name="com.android.vending.INSTALL_REFERRER" />
+139-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:40:17-79
+139-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:40:25-76
+140            </intent-filter>
+141        </receiver>
+142
+143        <service
+143-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:44:9-47:40
+144            android:name="com.google.android.gms.measurement.AppMeasurementService"
+144-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:45:13-84
+145            android:enabled="true"
+145-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:46:13-35
+146            android:exported="false" />
+146-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:47:13-37
+147        <service
+147-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:48:9-52:72
+148            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+148-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:49:13-87
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:50:13-35
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:51:13-37
+151            android:permission="android.permission.BIND_JOB_SERVICE" />
+151-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\9c923ad58cd01bbff953debb31104aaa\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:52:13-69
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+156
+157        <provider
+157-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\4c7df35b33e08a0a22c1898b58862afd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+158            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\4c7df35b33e08a0a22c1898b58862afd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+159            android:authorities="com.example.instantinvites.lifecycle-process"
+159-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\4c7df35b33e08a0a22c1898b58862afd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+160            android:exported="false"
+160-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\4c7df35b33e08a0a22c1898b58862afd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+161            android:multiprocess="true" />
+161-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\kosi5\.gradle\caches\transforms-2\files-2.1\4c7df35b33e08a0a22c1898b58862afd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+162    </application>
+163
+164</manifest>
